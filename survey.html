@@ -1,0 +1,82 @@
+<form>
+
+    <title>SURVEY FORM</title>
+<link rel="stylesheet" type="text/css" href="survey.css" />
+    <div id="title">
+
+
+    <h1> SURVEY FORM</h1>
+    </div>
+           <body>
+        <div id="description">
+         <h3>Description</h3>
+           <ul>
+             <li>Personal information to be collected and kept secure</li>
+           </ul><br>
+    </div>
+
+    <div id="contact">
+          <h2>Contact Information</h2>
+    </div>
+
+     <p>
+    <div id="name">
+      <label for="name">name:</label>  <input type="text" name="name" placeholder="names" pattern="[a-z A-Z]">
+    <div id="name-label"><label for="name">all names</label>
+    </div>
+    </p>
+
+     <p>
+    <div id="email">
+      <label>email:</label>  <input type="email" name="Email" placeholder="email address"><div id="email-label"><label>someone@example.coms</label>
+</div>
+    </div>
+    </p>
+
+    <p>
+    <div>
+      <label for="number">number:</label>   <input type="number" name="amount" placeholder="1-10" value="1" min="1" max="10" ><br>
+      <div id="number-label"><label>1-10</label> <br>
+  </div>
+    </div>
+    </p>
+
+    <h2>Additional Information</h2>
+    <p>
+ <label>Knowleage Base </label>
+    <select>
+      <option value="books">Books</option>
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="php">PHP</option>
+      <option value="js">JavaScript</option>
+    </select>
+   </p>
+
+    <p>
+
+      <div id=choose>  Choose your favorite subject: </div>
+        <button name="subject" type="submit" value="HTML">HTML</button>
+        <button name="subject" type="submit" value="CSS">CSS</button>
+
+    </p>
+
+    <p>
+    <div id=fields>    <label>Fields of Expertise:</label><br></div>
+
+
+      <input type="checkbox" name="vehicle1" value="Bike"> Web design<br>
+      <input type="checkbox" name="vehicle2" value="Car"> App development<br>
+      <input type="checkbox" name="vehicle3" value="Boat" checked> Data anylasis<br><br>
+
+    <div id=comments>  <label for="story">Comments:</label><br></div>
+
+<textarea id="story" name="story"
+          rows="5" cols="33">
+</textarea>
+
+     <input type="submit" value="Submit"><br>
+
+   </p>
+      </body>
+   </form>
